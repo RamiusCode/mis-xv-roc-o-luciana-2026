@@ -31,7 +31,7 @@
       </div> -->
 
       <div
-        class="backdrop-blur-sm bg-white/10 rounded-3xl shadow-lg border-2 border-[#E2B6BA] p-4 md:p-8 relative z-10"
+        class="backdrop-blur-sm bg-white/10 rounded-3xl shadow-lg border-2 border-[#C9A646] p-4 md:p-8 relative z-10"
         id="calendario-card"
       >
         <!-- MARIPOSAS + TÍTULO DEL MES -->
@@ -50,7 +50,7 @@
 
           <!-- Título -->
           <h3
-            class="font-charm text-2xl md:text-4xl text-[#E2B6BA] font-bold"
+            class="font-charm text-2xl md:text-4xl text-[#C9A646] font-bold"
             id="nombre-mes"
           >
             <!-- Se llenará con JavaScript -->
@@ -69,37 +69,37 @@
         <!-- DÍAS DE LA SEMANA -->
         <div class="grid grid-cols-7 gap-1 md:gap-2 mb-3">
           <div
-            class="text-center font-charm text-sm md:text-base text-[#E2B6BA] font-bold"
+            class="text-center font-charm text-sm md:text-base text-[#C9A646] font-bold"
           >
             D
           </div>
           <div
-            class="text-center font-charm text-sm md:text-base text-[#E2B6BA] font-bold"
+            class="text-center font-charm text-sm md:text-base text-[#C9A646] font-bold"
           >
             L
           </div>
           <div
-            class="text-center font-charm text-sm md:text-base text-[#E2B6BA] font-bold"
+            class="text-center font-charm text-sm md:text-base text-[#C9A646] font-bold"
           >
             M
           </div>
           <div
-            class="text-center font-charm text-sm md:text-base text-[#E2B6BA] font-bold"
+            class="text-center font-charm text-sm md:text-base text-[#C9A646] font-bold"
           >
             M
           </div>
           <div
-            class="text-center font-charm text-sm md:text-base text-[#E2B6BA] font-bold"
+            class="text-center font-charm text-sm md:text-base text-[#C9A646] font-bold"
           >
             J
           </div>
           <div
-            class="text-center font-charm text-sm md:text-base text-[#E2B6BA] font-bold"
+            class="text-center font-charm text-sm md:text-base text-[#C9A646] font-bold"
           >
             V
           </div>
           <div
-            class="text-center font-charm text-sm md:text-base text-[#E2B6BA] font-bold"
+            class="text-center font-charm text-sm md:text-base text-[#C9A646] font-bold"
           >
             S
           </div>
@@ -174,13 +174,13 @@
       if (dia === DIA_ESPECIAL) {
         // Día especial de la boda
         diaDiv.className =
-          "aspect-square flex items-center justify-center rounded-lg bg-gradient-to-br from-[#E2B6BA] to-[#c9a55e] shadow-xl dia-calendario";
+          "aspect-square flex items-center justify-center rounded-lg bg-gradient-to-br from-[#C9A646] to-[#c9a55e] shadow-xl dia-calendario";
         diaDiv.id = "dia-especial";
         diaDiv.innerHTML = `<span class="font-charm text-2xl md:text-3xl text-white font-bold">${dia}</span>`;
       } else {
         // Días normales
         diaDiv.className =
-          "aspect-square flex items-center justify-center rounded-lg hover:bg-[#E2B6BA]/10 transition-all dia-calendario";
+          "aspect-square flex items-center justify-center rounded-lg hover:bg-[#C9A646]/10 transition-all dia-calendario";
         diaDiv.innerHTML = `<span class="font-charm text-base md:text-lg text-white">${dia}</span>`;
       }
 

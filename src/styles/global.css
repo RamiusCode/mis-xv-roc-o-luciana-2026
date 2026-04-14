@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+/* Separador PNG: convierte el rosa en dorado #C9A646 */
+.separador-dorado {
+  filter: brightness(0) invert(1) sepia(1) saturate(2.5) hue-rotate(3deg) brightness(0.88);
+}
 
 /* Para el nombre */
 .font-great-vibes {
